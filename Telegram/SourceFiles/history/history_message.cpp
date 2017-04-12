@@ -869,12 +869,14 @@ void HistoryMessage::countPositionAndSize(int32 &left, int32 &width) const {
 	}
 
 	width = hwidth - st::msgMargin.left() - st::msgMargin.right();
+/*
 	if (width > maxwidth) {
 		if (!isPost() && out() && !Adaptive::ChatWide()) {
 			left += width - maxwidth;
 		}
 		width = maxwidth;
 	}
+*/
 }
 
 void HistoryMessage::fromNameUpdated(int32 width) const {

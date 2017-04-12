@@ -94,7 +94,7 @@ noContactsColor: windowSubTextFg;
 activeFadeInDuration: 500;
 activeFadeOutDuration: 3000;
 
-msgMaxWidth: 430px;
+msgMaxWidth: 4300px;
 msgFont: font(fsize);
 msgNameFont: semiboldFont;
 msgNameStyle: semiboldTextStyle;
